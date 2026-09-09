@@ -66,14 +66,28 @@ namespace Session_3__Assignment
 
             Console.WriteLine(result2) ;
             #endregion
+            // ANSWER 7
             #region format
-            string title4= "Clean Code";
+            string title4 = "Clean Code";
             int pages4 = 464;
 
             string result4 = string.Format("Book: {0}, Pages: {1}", title4, pages4);
 
             Console.WriteLine(result4);
             #endregion
+            // ANSWER 8
+            #region IF ELSE 
+            int pages5 = 464;
+            if (pages5 > 300)
+            {
+                Console.WriteLine("This is a long book.");
+            }
+            else
+            {
+                Console.WriteLine("This is a short book.");
+            }
+            #endregion
+
         }
 
     }
