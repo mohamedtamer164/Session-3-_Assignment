@@ -26,7 +26,7 @@ namespace Session_3__Assignment
             #endregion
             // ANSWER 3
             #region StringBuilder
-            
+
 
             StringBuilder sb = new StringBuilder();
 
@@ -37,7 +37,7 @@ namespace Session_3__Assignment
             #endregion
             // ANSWER 4
             #region reblace
-            
+
 
             StringBuilder sb2 = new StringBuilder();
 
@@ -59,12 +59,12 @@ namespace Session_3__Assignment
             #endregion
             // ANSWER 6
             #region 6
-            string title3= "Clean Code";
-            int pages2= 464;
+            string title3 = "Clean Code";
+            int pages2 = 464;
 
-            string result2= $"Book: {title3}, Pages: {pages2}";
+            string result2 = $"Book: {title3}, Pages: {pages2}";
 
-            Console.WriteLine(result2) ;
+            Console.WriteLine(result2);
             #endregion
             // ANSWER 7
             #region format
@@ -87,8 +87,21 @@ namespace Session_3__Assignment
                 Console.WriteLine("This is a short book.");
             }
             #endregion
+            // ANSWER 9
+            #region oper
+            int pages6 = 464;
+
+            bool isAvailable = true;
+
+            if (pages > 300 && isAvailable == true)
+            {
+                Console.WriteLine("You can borrow this book");
+            }
+
+            #endregion
+            // ANSWER 10
+
 
         }
-
     }
 }
