@@ -11,10 +11,18 @@
 
             Console.WriteLine(upperTitle); //  هنا هيطلع الكود كله حلاوف كبيره       
             Console.WriteLine(Title); //  هيطلع الكود زي م هو 
-            Console.WriteLine(Title.GetHashCode()); 
+            Console.WriteLine(Title.GetHashCode());
             Console.WriteLine(upperTitle.GetHashCode()); //  هنا عاوز اشوف هل العنوان قيمته اتغيرت ولا لا 
+            Console.WriteLine(ReferenceEquals(Title, upperTitle)); //  هنا هيطلع false لانهم مش نفس العنوان
 
             #endregion
+            // ANSWER 2
+            #region
+            string name1 = "clean code";
+            string name2 = "clean code";
+            Console.WriteLine(ReferenceEquals(name1, name2)); //  هنا هيطلع true لانهم نفس العنوان
+            #endregion
         }
+
     }
 }
