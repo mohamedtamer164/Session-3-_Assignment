@@ -35,6 +35,28 @@ namespace Session_3__Assignment
 
             Console.WriteLine(sb);
             #endregion
+            // ANSWER 4
+            #region reblace
+            
+
+            StringBuilder sb2 = new StringBuilder();
+
+            sb2.Append("Book List");
+            sb2.Append(" - Updated");
+
+            sb2.Replace("Book List", "Library");
+
+            Console.WriteLine(sb2);
+            #endregion
+            // ANSWER 5
+            #region 
+            string title = "Clean Code";
+            int pages = 464;
+
+            string result = "Book: " + title + ", Pages: " + pages;
+
+            Console.WriteLine(result);
+            #endregion
         }
 
     }
