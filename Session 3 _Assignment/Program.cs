@@ -57,7 +57,16 @@ namespace Session_3__Assignment
 
             Console.WriteLine(result);
             #endregion
-            
+            // ANSWER 6
+            #region
+            string title3= "Clean Code";
+            int pages2= 464;
+
+            string result2= $"Book: {title3}, Pages: {pages2}";
+
+            Console.WriteLine(result2) ;      
+            #endregion
+
         }
 
     }
