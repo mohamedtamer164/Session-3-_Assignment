@@ -100,6 +100,24 @@ namespace Session_3__Assignment
 
             #endregion
             // ANSWER 10
+            #region SWITCH CASE
+            string title5 = "Refactoring";
+
+            switch (title)
+            {
+                case "Clean Code":
+                    Console.WriteLine("Great choice!");
+                    break;
+
+                case "Refactoring":
+                    Console.WriteLine("Nice pick!");
+                    break;
+
+                default:
+                    Console.WriteLine("Never heard of it");
+                    break;
+            #endregion
+            }
 
 
         }
